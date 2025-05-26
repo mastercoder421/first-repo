@@ -1,0 +1,27 @@
+if we want to check the version then we we have to give the command "git --version"
+
+if we want to clone the github repository in the terminal 
+then we have to command "git clone LINK" in the link section we have to provide the link 
+
+if w3 want to go to folder , then we have to use "cd "folder name""
+
+for clear the terminal we have to use "clear:
+
+for looking the all the files under the folder we have to use "ls"
+for looking all the hidden files under the folder we have to use "ls -a"
+
+we can also use "git status" to know the status of github account 
+
+if we modified the old file then we have to do the two step process first we have to add 
+and second we have to commit in the github 
+and we use "git status" to know the status of our current file whether it is commit or 
+not in the github 
+
+there are four types of files in the github 
+first is untracked , 2 is modified, 3 is staged , and 4 is unmodified
+untracked is that file which are new files that git don't yet track
+modifies means changed
+staged means file is ready to be comitted
+and last is unmodified means unchanged 
+
+if we want to add some files then we simply use "git add "file""
