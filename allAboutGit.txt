@@ -25,3 +25,66 @@ staged means file is ready to be comitted
 and last is unmodified means unchanged 
 
 if we want to add some files then we simply use "git add "file""
+
+if we want to commit all the changes we done then we use the syntax "git commit -m"some message""
+
+remote means github and local means our laptop or computer 
+
+after all we have to use push to finally make the changes on our github profile repository
+and for this we use the syntax "git push origin main"
+
+to make the new folder we have to use cd ..
+and to give the name to that we use "mkdir "folder name""
+
+to make this repo a git repo we use the syntax "git init"
+
+to add we use git add .
+
+we have to use git remote add origin link , to make this repo on github 
+
+remote -v , to know where it is stored
+
+git branch is used for to know the branch 
+
+to rename the branch git branch -M "name" which we want to rename the name  
+
+finally our workflow is 
+github repo -> clone -> changes -> add -> commit -> push 
+
+NOW WE TALK ABOUT BRANCHES
+
+git branch -is used to know the branch name
+if we want to make the new branch then we use- git checkout -b "branch name"
+if we want to switch from one branch to another branch then we use - git checkout main 
+if we want to delete one branch then we use- git branch -d "branchname"
+
+if we done some work in feature1 file 
+then git add . -> git status -> git commit -m "some message"  -> git push origin feature1
+then it finally push in the origin where we can see all branches code
+
+we can easily merge our branch into main branch by going into PR (pull repository) into github
+
+and if we want to change our main branch after change merge new pr in the github account
+then we simply use - git pull origin main 
+
+one more thing is that when we have more than one branch and there is both different in some
+points then we can select one of them 
+
+to uncommit all the changes in any file we can simply use the syntax - git reset HEAD~1
+and if we have done any changes which we had not to commit then we simply use - git reset 
+file name and also can use git reset 
+
+to generate the link we simmply press- git log and copy that which we want to return like
+we want to go back before adding button then 
+we use git reset --hard "link of that which we want to obtain"
+
+FORK - a forrk is a new repository that shares code and visibility settings with the original
+"upstream" repository. 
+Fork is a rough copy
+
+fork is not the git work it is github work , it is just like copy other's projects and 
+paste in our profile then we simply use that project code , modified it and add or remove 
+anything whcih we want 
+and then we have to send the pr request to the github account 
+then approve this request then our change is ready in that project
+
